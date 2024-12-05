@@ -158,7 +158,7 @@ header{
     cursor: pointer;
 }
 
-.order-info-buttons .quantity-selector sPAN{
+.order-info-buttons .quantity-selector span{
     border-right: 1px solid var(--gray-color);
     border-left: 1px solid var(--gray-color);
     width: 50%;
@@ -191,6 +191,12 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+.food-carousel{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
 .food-carousel button{
     background-color: #fff;
     border-radius: 100px;
@@ -208,29 +214,3 @@ header{
     overflow: hidden;
 }
 
-.food-carousel .food-item{
-    width: 93px;
-    height: 164px;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    text-align: center;
-    padding: 5px;
-    padding-bottom: 10px;
-    cursor: pointer;
-}
-
-.food-carousel .food-item.selected{
-    border: 2px solid var(--primary-color);
-}
-
-.food-carousel .food-item:nth-child(even){
-    background-color: #DDFCBF;
-}
-
-.food-carousel .food-item:nth-child(odd){
-    background-color: #ff0000;
-}
-/*hero-section*/
