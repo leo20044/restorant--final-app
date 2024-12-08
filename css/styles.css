@@ -285,3 +285,257 @@ header{
     padding: 5px 20px;
     border: 1px solid white;
 }
+
+/*hero-section*/
+/*Step-order-section*/
+.order-steps{
+    text-align: center;
+    padding: 100px 20px;
+    background-color: var(--light-color);
+}
+
+.order-steps-title{
+    font-size: var(--title);
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    font-family: var(--handlee-font);
+}
+
+.order-steps-container{
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    flex-wrap: wrap;
+}
+
+.order-step{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0,1);
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+    max-width: 400px;
+    transition: transform 0.3s;
+    position: relative;
+}
+
+.order-step:hover{
+    transform: translateY(-10px);
+}
+
+.order-step-icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    transition: 0.7s all ease;
+    opacity: 0.1;
+}
+
+.order-step:hover .order-step-icon{
+    opacity: 0.3;
+}
+.order-step-title{
+    font-size: 96px;
+    font-family: var(--irish-font);
+    margin: 10px 0;
+}
+
+.order-step-description{
+    font-size: 14px;
+    color: #666;
+}
+
+/*Step-order-section*/
+/*cta-section*/
+.cta-section{
+    position: relative;
+    background-image: url(../img/dan-gold-E6HjQaB7UEA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 75px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.cta-content{
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 60px;
+    border-radius: 20px;
+    max-width: 690px;
+    margin: auto;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cta-title{
+    font-size: var(--title);
+    font-family: var(--handlee-font);
+    margin-bottom: 20px;
+}
+
+.cta-description{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 15px 70px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s all ease;
+    box-shadow: 0 0 12px rgba(245, 129, 0, 0.4);
+}
+
+.cta-button:hover{
+    background-color: #e66b00;
+}
+/*cta-section*/
+
+/*statistics-section*/
+.statistics-section{
+    background-color: var(--light-color);
+    padding: 60px 20px 130px 28px;
+    text-align: center;
+    color: #333;
+}
+
+.statistics-title{
+    font-size: var(--title);
+    color: var(--primary-color);
+    font-family: var(--handlee-font);
+    margin-bottom: 50px;
+}
+
+.statistics-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.stat-item{
+    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.stat-value{
+    font-size: var(--title);
+    font-family: var(--irish-font);
+    font-weight: bold;
+}
+
+.stat-description{
+    font-size: 24px;
+    color: #303030;
+    margin-top: 10px;
+}
+/*statistics-section*/
+/*About-section*/
+.about-section{
+    position: relative;
+    background-image: url(../img/dan-gold-E6HjQaB7UEA-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding:  100px 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    padding: 75px 130px;
+    border-radius: 15px;
+    max-width: 80%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0,2);
+
+}
+
+.about-title{
+    font-size: var(--title);
+    font-family: var(--handlee-font);
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.bout-description{
+    font-size: 20px;
+    color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+/*About-section*/
+/*Subscribe-section*/
+.subscribe-section{
+    background-color: var(--primary-color);
+    padding: 55px 20px 100px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.subscribe-title{
+    font-size: var(--title);
+    font-family: var(--handlee-font);
+    margin-bottom: 22px;
+}
+
+.subscribe-form{
+    margin: 0 auto;
+    max-width: 540px;
+}
+
+.subscribe-form-inline{
+    display: flex;
+    gap: 25px;
+}
+
+.subscribe-imput{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 250px;
+    flex: 1;
+}
+
+.subscribe-checkbox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 23px;
+}
+
+.subscribe-checkbox input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+
+.subscribe-button{
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex: 1;
+}
+/*Subscribe-section*/
+/**/
