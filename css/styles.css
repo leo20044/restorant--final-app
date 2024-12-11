@@ -211,7 +211,7 @@ header{
     padding: 5px;
     padding-bottom: 10px;
     cursor: pointer;
-    background-color: #DDFCBF;
+    
 }
 
 .food-carousel .food-item.selected{
@@ -538,4 +538,93 @@ header{
     flex: 1;
 }
 /*Subscribe-section*/
-/**/
+
+/*Location-section*/
+.contact-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 75px 20px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.contact-info{
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+.contact-info p{
+font-size: 18px;
+color: #555;
+margin-bottom: 20px;
+}
+
+.map-container{
+    flex: 2;
+    max-width: 60%;
+    height: 350px;
+}
+
+.map-container iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+/*Location-section*/
+/*vedeo-section*/
+.video-section{
+    background-color: var(--primary-color);
+    padding: 60px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.video-title{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: var(--title);
+    font-family: var(--handlee-font);
+}
+
+.video-description{
+    font-size: 16px;
+    text-wrap: balance;
+    margin-bottom: 40px;
+}
+
+.video-iframe{
+    width: 1200px;
+    aspect-ratio: 16 / 9;
+}
+/*vedeo-section*/
+
+/*menu-layout*/
+.menu-layout{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    position: relative;
+}
+.menu{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #ff0000;
+}
+.menu-catogories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/*menu-layout*/
