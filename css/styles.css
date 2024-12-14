@@ -663,6 +663,44 @@ margin-bottom: 20px;
 
 
 /*Email-section*/
+/*testimonial-section*/
+.testmonial-section{
+    padding: 60px 20px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: #fff;
+}
+.testimonial-title{
+    margin-bottom: 15px;
+}
+.carusel-indicators{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carusel-indicators .dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background-color: #fdbe77;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carusel-indicators .dot.active{
+    border: 4px solid var(--primary-color);
+    height: 15px;
+}
+.testimonial-container
+.carusel-arrow
+.left-arrow-testimonial
+.testimonial-card-first
+.testimonial-image
+.testimonial-role
+.testimonial-quote
+.testimonial-text
+/*testimonial-section*/
 
 /*menu-layout*/
 .menu-layout{
