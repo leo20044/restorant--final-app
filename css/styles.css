@@ -769,6 +769,7 @@ margin-bottom: 20px;
 }
 .testimonial-card-first .testimonial-quote{
     font-size: 13px;
+    color: var(--primary-color);
 }
 .testimonial-card-first .testimonial-text{
     font-size: 12px;
@@ -832,11 +833,11 @@ margin-bottom: 20px;
     font-size: 18px;
 }
 .testimonial-card-middle .testimonial-quote{
-    font-size: 30px;
+    font-size: 20px;
     color: var(--primary-color);
 }
 .testimonial-card-middle .testimonial-text{
-    font-size: 18px;
+    font-size: 12px;
 }
 
 /*middlecard*/
@@ -880,6 +881,8 @@ margin-bottom: 20px;
     width: 100px;
     height: 100px;
     margin-top: -50px;
+    border-radius: 100px;
+    z-index: 10;
 }
 
 .testimonial-card-third .testimonial-card-name{
@@ -891,6 +894,7 @@ margin-bottom: 20px;
 }
 .testimonial-card-third .testimonial-quote{
     font-size: 13px;
+    color: var(--primary-color);
 }
 .testimonial-card-third .testimonial-text{
     font-size: 12px;
